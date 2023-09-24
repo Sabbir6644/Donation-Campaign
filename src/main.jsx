@@ -9,6 +9,7 @@ import MainLayout from './Components/MainLayout';
 import Donation from './Donation';
 import Statistics from './Statistics';
 import Home from './Components/Home';
+import CardDetails from './Components/CardDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/Statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: `/Details/:title`,
+        element: <CardDetails></CardDetails>,
       },
     ]
   },

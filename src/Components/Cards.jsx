@@ -1,7 +1,9 @@
+import { createContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+export const CardContext = createContext();
 
 
 const Cards = ({obj}) => {
-     console.log(obj);
      const {picture, category, title, category_bg, card_bg, text_button_bg
      }= obj;
      const cardStyle = {
@@ -14,9 +16,11 @@ const Cards = ({obj}) => {
      const btnTextColor = {
           color: text_button_bg, 
         };
+       
      return (
           <div>
-               <div className="rounded-xl shadow-md" style={cardStyle}>
+<Link to={`/Details/${title}`}>
+<div className="rounded-xl shadow-md" style={cardStyle}>
   <div>
     <img className="w-full rounded-tr-md rounded-tl-md"
       src={picture}
@@ -34,8 +38,12 @@ const Cards = ({obj}) => {
   </div>
   
 </div>
+</Link>
           </div>
      );
 };
 
 export default Cards;
+
+
+
