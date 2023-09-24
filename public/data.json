@@ -1,0 +1,127 @@
+[
+  {
+    "picture": "https://i.ibb.co/5rxQ92H/Rectangle-4284.png",
+    "category": "Health",
+    "title": "Clean water for children",
+    "category_bg": "#3498db",
+    "card_bg": "#ecf0f1",
+    "text_button_bg": "#0052FF",
+    "description": "Health is a state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity. It encompasses various aspects, including nutrition, exercise, and mental harmony. Maintaining good health involves making informed choices about diet, staying active, managing stress, and seeking regular medical check-ups. A balanced lifestyle contributes to longevity and quality of life. Prioritizing health allows individuals to enjoy a vibrant and fulfilling existence, ensuring they can pursue their aspirations and contribute positively to society.",
+    "price": "$499.99"
+  },
+  {
+    "picture": "https://i.ibb.co/7YCBt9z/Rectangle-4288.png",
+    "category": "Education",
+	"title": "Good education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "$290.00"
+  },
+  {
+    "picture": "https://i.ibb.co/QQmxdLs/Rectangle-4287.png",
+    "category": "Clothing",
+"title": "Used Clothing Drive",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Clothing donation is a noble act of giving gently used or new garments to those in need. It serves a dual purpose, helping declutter our own wardrobes while providing essential clothing to less fortunate individuals and communities. Donated clothing can offer warmth, dignity, and protection to people facing financial hardships, natural disasters, or homelessness. It promotes sustainability by reducing textile waste and encourages a sense of community and empathy. By contributing to clothing donation initiatives, individuals can make a significant impact on the lives of others, fostering a sense of unity and social responsibility.",
+    "price": "$299.00"
+  },
+
+  {
+    "picture": "https://i.ibb.co/KXvhJZZ/Rectangle-4287-2.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Food donation is a compassionate act of sharing surplus or non-perishable food items with those who are hungry or in need. It plays a crucial role in alleviating hunger and food insecurity in communities worldwide. Donating food not only ensures that nutritious meals reach vulnerable individuals and families but also reduces food wastage and promotes sustainability. It fosters a sense of unity and empathy among communities, encouraging them to support one another in times of hardship. Food donation drives, organized by charities, businesses, and individuals, contribute to building stronger, more resilient communities. By participating in food donation efforts, you can make a meaningful difference in the lives of those facing hunger while actively participating in the fight against food waste and insecurity.",
+    "price": "$19.99"
+  },
+  {
+    "picture": "https://i.ibb.co/KXvhJZZ/Rectangle-4287-2.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Food donation is a compassionate act of sharing surplus or non-perishable food items with those who are hungry or in need. It plays a crucial role in alleviating hunger and food insecurity in communities worldwide. Donating food not only ensures that nutritious meals reach vulnerable individuals and families but also reduces food wastage and promotes sustainability. It fosters a sense of unity and empathy among communities, encouraging them to support one another in times of hardship. Food donation drives, organized by charities, businesses, and individuals, contribute to building stronger, more resilient communities. By participating in food donation efforts, you can make a meaningful difference in the lives of those facing hunger while actively participating in the fight against food waste and insecurity.",
+    "price": "$19.99"
+  },
+  {
+    "picture": "https://i.ibb.co/QQmxdLs/Rectangle-4287.png",
+    "category": "Clothing",
+"title": "Used Clothing Drive",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Clothing donation is a noble act of giving gently used or new garments to those in need. It serves a dual purpose, helping declutter our own wardrobes while providing essential clothing to less fortunate individuals and communities. Donated clothing can offer warmth, dignity, and protection to people facing financial hardships, natural disasters, or homelessness. It promotes sustainability by reducing textile waste and encourages a sense of community and empathy. By contributing to clothing donation initiatives, individuals can make a significant impact on the lives of others, fostering a sense of unity and social responsibility.",
+    "price": "$299.00"
+  },
+   {
+    "picture": "https://i.ibb.co/7YCBt9z/Rectangle-4288.png",
+    "category": "Education",
+	"title": "Good education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "$290.00"
+  },
+ {
+    "picture": "https://i.ibb.co/5rxQ92H/Rectangle-4284.png",
+    "category": "Health",
+    "title": "Clean water for children",
+    "category_bg": "#3498db",
+    "card_bg": "#ecf0f1",
+    "text_button_bg": "#0052FF",
+    "description": "Health is a state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity. It encompasses various aspects, including nutrition, exercise, and mental harmony. Maintaining good health involves making informed choices about diet, staying active, managing stress, and seeking regular medical check-ups. A balanced lifestyle contributes to longevity and quality of life. Prioritizing health allows individuals to enjoy a vibrant and fulfilling existence, ensuring they can pursue their aspirations and contribute positively to society.",
+    "price": "$499.99"
+  },
+
+ {
+    "picture": "https://i.ibb.co/5rxQ92H/Rectangle-4284.png",
+    "category": "Health",
+    "title": "Clean water for children",
+    "category_bg": "#3498db",
+    "card_bg": "#ecf0f1",
+    "text_button_bg": "#0052FF",
+    "description": "Health is a state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity. It encompasses various aspects, including nutrition, exercise, and mental harmony. Maintaining good health involves making informed choices about diet, staying active, managing stress, and seeking regular medical check-ups. A balanced lifestyle contributes to longevity and quality of life. Prioritizing health allows individuals to enjoy a vibrant and fulfilling existence, ensuring they can pursue their aspirations and contribute positively to society.",
+    "price": "$499.99"
+  },
+  {
+    "picture": "https://i.ibb.co/7YCBt9z/Rectangle-4288.png",
+    "category": "Education",
+	"title": "Good education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "$290.00"
+  },
+  {
+    "picture": "https://i.ibb.co/QQmxdLs/Rectangle-4287.png",
+    "category": "Clothing",
+"title": "Used Clothing Drive",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Clothing donation is a noble act of giving gently used or new garments to those in need. It serves a dual purpose, helping declutter our own wardrobes while providing essential clothing to less fortunate individuals and communities. Donated clothing can offer warmth, dignity, and protection to people facing financial hardships, natural disasters, or homelessness. It promotes sustainability by reducing textile waste and encourages a sense of community and empathy. By contributing to clothing donation initiatives, individuals can make a significant impact on the lives of others, fostering a sense of unity and social responsibility.",
+    "price": "$299.00"
+  },
+
+  {
+    "picture": "https://i.ibb.co/KXvhJZZ/Rectangle-4287-2.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Food donation is a compassionate act of sharing surplus or non-perishable food items with those who are hungry or in need. It plays a crucial role in alleviating hunger and food insecurity in communities worldwide. Donating food not only ensures that nutritious meals reach vulnerable individuals and families but also reduces food wastage and promotes sustainability. It fosters a sense of unity and empathy among communities, encouraging them to support one another in times of hardship. Food donation drives, organized by charities, businesses, and individuals, contribute to building stronger, more resilient communities. By participating in food donation efforts, you can make a meaningful difference in the lives of those facing hunger while actively participating in the fight against food waste and insecurity.",
+    "price": "$19.99"
+  }
+
+  
+]
