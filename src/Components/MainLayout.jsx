@@ -6,7 +6,7 @@ export const DataContext = createContext();
 const MainLayout = () => {
      const data = useLoaderData();
      return (
-          <div className="max-w-7xl mx-auto">
+          <div className="relative">
                <Header></Header>
                <DataContext.Provider value={data}>
                <Outlet></Outlet>

@@ -1,11 +1,10 @@
-import { createContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
-export const CardContext = createContext();
 
 
-const Cards = ({obj}) => {
-     const {picture, category, title, category_bg, card_bg, text_button_bg
-     }= obj;
+const DonationCard = ({data}) => {
+     console.log(data);
+     const {picture, price, category, title, category_bg, card_bg, text_button_bg
+     }= data;
+
      const cardStyle = {
           backgroundColor: card_bg, 
         };
@@ -13,14 +12,17 @@ const Cards = ({obj}) => {
           backgroundColor: category_bg,
           color: text_button_bg,
         };
+        const btnBg = {
+          backgroundColor: text_button_bg,
+         
+        }
      const btnTextColor = {
           color: text_button_bg, 
         };
-       
      return (
           <div>
-<Link to={`/Details/${title}`}>
-<div className="rounded-xl shadow-md" style={cardStyle}>
+
+<div className="flex rounded-xl shadow-md" style={cardStyle}>
   <div>
     <img className="w-full rounded-tr-md rounded-tl-md"
       src={picture}
@@ -32,18 +34,21 @@ const Cards = ({obj}) => {
     <button className="mb-2 font-semibold py-1 px-3 rounded-md" style={catagoryStyle}>
       {category}
     </button>
-    <p className="text-xl font-bold" style={btnTextColor}>
+    <p className="text-xl font-bold">
       {title}
     </p>
+    <p className="mt-2 font-bold" style={btnTextColor}>
+      {price}
+    </p>
+    <button className="my-2 font-semibold py-1 px-3 rounded-md text-white" style={btnBg}>
+    View Details
+    </button>
   </div>
   
 </div>
-</Link>
+
           </div>
      );
 };
 
-export default Cards;
-
-
-
+export default DonationCard;
