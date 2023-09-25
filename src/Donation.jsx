@@ -12,8 +12,6 @@ const Donation = () => {
           const storedTitle = getStoredObj()
           setStoredData(storedTitle)
      }, [data])
-     // console.log(storedData);
-
 
      return (
           <div className=" max-w-7xl mx-auto my-10">
