@@ -5,19 +5,13 @@ import bgImage from "/src/images/bgimage.png"
 
 const Home = () => {
      const [inputText, setInputText]= useState();
-     // const [getData, setGetData]= useState();
      const [inputValu, setInputValue]= useState();
-     const [displayData, setDisplayData]= useState();
-    
+     const [displayData, setDisplayData]= useState();   
           const data = useContext(DataContext)
-          // setDisplayData(data)
-          useEffect(() => {
-               
+          useEffect(() => {               
                const filteredData = data?.filter((singleData) => singleData?.category === inputValu);     
                setDisplayData(filteredData);
-             }, [inputValu]);
-             
-             
+             }, [inputValu]);                        
     
      const backgroundStyle = {
           backgroundImage: `url(${bgImage})`,
@@ -36,9 +30,7 @@ const Home = () => {
           bottom:0,
         };
 const handleInputValue = e =>{
-
 const inputValue = e.target.value
-// console.log(inputValue);
 setInputText(inputValue) 
 
 }
