@@ -26,7 +26,7 @@ const Donation = () => {
                <div>
                     <div className="flex justify-center my-8">
                          {
-                              storedData?.length > 4  && isShow? "": <button onClick={() => setIsShow(!isShow)} className="btn text-white bg-[#009444] rounded-md py-1 px-2 ">See All</button> 
+                              storedData?.length < 5 || isShow ? "" : <button onClick={() => setIsShow(!isShow)} className="btn text-white bg-[#009444] rounded-md py-1 px-2 ">See All</button> 
                               
                          }
 
