@@ -14,7 +14,6 @@ const CardDetails = () => {
 
         const handleDonate =()=>{
           SaveToLocalStorage(details);
-          // console.log('clicked');
           }
 
      return (
@@ -23,7 +22,7 @@ const CardDetails = () => {
                <div className="relative">
                <img className="w-full lg:h-[700px] " src={picture} alt="" />            
                <div className=" absolute bottom-0 w-full  h-[130px] bg-gradient-to-t from-transparent to-[#0b0b0b80]"></div>
-               <button onClick={handleDonate} className="absolute bottom-9 left-7 text-xl text-white font-bold py-4 px-6 rounded-md" style={btnBg}>Donate ${price}</button>
+               <button onClick={handleDonate} className="absolute bottom-9 left-7 text-xl text-white font-bold py-4 px-6 rounded-md" style={btnBg}>Donate {price}</button>
                </div>
                
                <h2 className="my-7 text-4xl font-bold">{title}</h2>

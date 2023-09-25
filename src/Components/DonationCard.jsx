@@ -1,7 +1,6 @@
 
 
 const DonationCard = ({data}) => {
-     console.log(data);
      const {picture, price, category, title, category_bg, card_bg, text_button_bg
      }= data;
 
