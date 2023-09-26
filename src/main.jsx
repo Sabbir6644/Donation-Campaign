@@ -10,10 +10,12 @@ import Donation from './Donation';
 import Statistics from './Statistics';
 import Home from './Components/Home';
 import CardDetails from './Components/CardDetails';
+import ErrorPage from './Components/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
     loader: ()=> fetch('data.json'),
     children: [
       {
