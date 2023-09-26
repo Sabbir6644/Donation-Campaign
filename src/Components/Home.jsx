@@ -44,7 +44,7 @@ const handleSearch= (catagory)=>{
                <div className="pt-24 pb-6 max-w-7xl mx-auto" >
                     <h2 className="text-5xl font-bold text-center my-4">I Grow By Helping People In Need</h2>
                     <div className=" flex justify-center py-5">
-                         <input onChange={handleInputValue} className="w-[470px] h-12 border rounded-md pl-3" placeholder="Search here...." type="text" />
+                         <input onChange={handleInputValue} className="w-4/5 md:w-3/5 h-12 border rounded-md pl-3" placeholder="Search here...." type="text" />
                          <button onClick={()=>handleSearch(inputText)} className="bg-[#FF444A] h-12 w-28 rounded-e-md text-white font-bold -ml-28">Search</button>
                     </div>
                </div>

@@ -15,7 +15,7 @@ const Donation = () => {
 
      return (
           <div className=" max-w-7xl mx-auto my-10">
-               <div className="grid grid-cols-2 gap-4">
+               <div className="grid md:grid-cols-2 gap-4">
                     {
                         isShow && storedData?.length > 4 ? storedData?.map((data, index) => <DonationCard key={index} data={data}></DonationCard>): 
                         storedData?.slice(0, 4)?.map((data, index) => <DonationCard key={index} data={data}></DonationCard>)

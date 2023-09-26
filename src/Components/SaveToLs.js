@@ -1,17 +1,17 @@
 import Swal from "sweetalert2";
 
 const getStoredObj = ()=>{
-     const StoredTitle = localStorage.getItem('donation');
-if(StoredTitle){
-     return JSON.parse(StoredTitle);
+     const StoredObject = localStorage.getItem('donation');
+if(StoredObject){
+     return JSON.parse(StoredObject);
 }
 return [];
 }
 const SaveToLocalStorage = (obj)=>{
-     const storedTitle = getStoredObj();
+     const storageObject = getStoredObj();
 
-     storedTitle.push(obj);
-          localStorage.setItem('donation', JSON.stringify(storedTitle))        
+     storageObject.push(obj);
+          localStorage.setItem('donation', JSON.stringify(storageObject))        
           return Swal.fire(
                'Your Donation Success!',
                'Please clicked the button!',

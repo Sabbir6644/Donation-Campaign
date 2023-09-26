@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
 import { createContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const CardContext = createContext();
 
 
@@ -42,7 +43,9 @@ const Cards = ({obj}) => {
           </div>
      );
 };
-
+Cards.propTypes = {
+  obj: PropTypes.object
+};
 export default Cards;
 
 

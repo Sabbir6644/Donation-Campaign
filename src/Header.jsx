@@ -3,7 +3,7 @@ import logo from "/src/images/Logo.png"
 
 const Header = () => {
      return (
-          <div className="max-w-7xl mx-auto">
+          <div className="pt-6 max-w-7xl mx-auto">
                <div className="flex gap-5 flex-col md:flex-row justify-center md:justify-between items-center md:pr-3">
                     <img src={logo} alt="" />
                     <div className="flex gap-3">
