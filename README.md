@@ -1,7 +1,7 @@
 ## Project Features
 
 - **User-Friendly Search:**
-  - Users can easily search for specific charitable causes using the search bar on the homepage.
+  - Users can easily search for specific catagory (catagory has case sensative) using the search bar on the homepage.
   - The search results are dynamically updated as users type, providing a seamless and responsive search experience.
 
 - **Interactive Background:**
