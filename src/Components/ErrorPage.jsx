@@ -6,7 +6,7 @@ const ErrorPage = () => {
           <div>
                <Header></Header>
                <div className="flex justify-center items-center min-h-[80vh]">
-<h2 className="text-5xl font-bold text-center">Page not found</h2>
+<h2 className="text-5xl font-bold text-center">No data found</h2>
                </div>
                
           </div>

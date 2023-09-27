@@ -1,12 +1,18 @@
-import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { DataContext } from "./MainLayout";
 import { SaveToLocalStorage } from "./SaveToLs";
+import { useContext } from "react";
 
 const CardDetails = () => {
      const data = useContext(DataContext)
+   
      const {title} = useParams();
-     const details = data.find(card => card.title === title);
+    
+   
+          const details = data?.find(card => card.title === title);
+         
+        
+   
      const {picture, description, price, text_button_bg}= details;
      const btnBg = {
           backgroundColor: text_button_bg, 
